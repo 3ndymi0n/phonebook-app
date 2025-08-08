@@ -1,5 +1,5 @@
 const SearchForm = ({ newSearch, handleSearchUpdate}) => {
-    return (
+  return (
       <p><strong>Search Phonebook:</strong><input name="search" value={newSearch} 
       placeholder="Search" onChange={(handleSearchUpdate)}/></p>
     )
